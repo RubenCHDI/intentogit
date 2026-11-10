@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1> FitLife Studio - Tu centro deportivo de confianza.</h1>
+
+<ul>
+	<li><a href="">Menú de navegación:</a></li>
+	<li><a href="">Instalaciones:</a></li>
+	<li><a href="">Horarios:</a></li>
+	<li><a href="">Inscripciones:</a></li>
+	
+</ul>
+
+
+
+<h3>Instalaciones</h3> 
+<p>Bienvenido a FitLife Studio<br>
+En FitLife Studio contamos con más de 2000m2 dedicados a la salud y el rendimiento físico. <br> Nuestras instalaciones incluyen zona de peso libre, salas de actividades colectivas y piscina olímpica. <br>
+Recursos adicionales: <br>
+<a>Foto principal</a><br> <img alt="imagen" src="gym.avif" width="400px"> <br>
+<a>>Vídeo promocional en bucle</a> <br> <video src="gymvideo.mp4"></video>
+<a> Audio ambiente </a><br> <audio src="unf-5.mp3"></audio>
+</p>
+
+
+<h3>Horario</h3>
+
+<table border="1">
+
+	<caption> Horario de Clases Colectivas 2026 </caption>
+	
+	<tr>
+		<th>Horario</th>
+		<th>Lunes</th>
+		<th>Martes</th>
+		<th>Miercoles</th>
+		<th>Jueves</th>
+		<th>Viernes</th>
+	
+	</tr>
+	
+	<tr>
+		<td>9:00 <br> 10:00</td>
+		<td>Spinning</td>
+		<td>Pilates</td>
+		<td>Spinning</td>
+		<td>Pilates</td>
+		<td>Yoga</td>
+		
+	</tr>
+	
+	<tr>
+		<td>10:00 <br> 11:00</td>
+		<td>Croosfit</td>
+		<td>Bodypump</td>
+		<td>Croosfit</td>
+		<td>Bodypump</td>
+		<td>Zumba</td>
+		
+	</tr>
+	
+	<tr>
+		<td>17:00 <br> 18:00</td>
+		<td colspan="5">Mantenimiento y limpieza </td>	
+	</tr>
+	
+</table><br>
+
+
+<form action="">
+	
+	<fieldset>
+	<legend>Grupo 1.Datos Personales</legend><br>
+	<label>Nombre<input required type="text" name="nombre"></label><br>
+	<label>Correo electronico<input required type="email" name="email"></label><br>
+	<label>Telefono<input type="number" name="telefono"></label><br>
+	<label>Fecha Nacimiento<input type="date" name="fecha"></label><br>
+	</fieldset>
+	
+	<fieldset>
+	<legend>Grupo 2.Configuracion de la cuota</legend><br>
+	<select>
+	<option value="0" disabled select>Sede preferida</option>
+	<option value="1">Sevilla:Centro </option>
+	<option value="2">Sevilla:Nervion</option>
+	<option value="3">Malaga:Teatinos</option>
+	</select><br>
+	<p>Tipo tarifa</p>
+	<label>Mensual 35€<input type="radio" name="tarifa"></label>
+	<label>Anual 90€<input type="radio" name="tarifa"></label>
+	<label>Trimestral 300€<input type="radio" name="tarifa"></label><br>
+	<label>Hora preferida de entrenamiento <input type="time" name="hora"></label><br>
+	<label>Observaciones medicas o fisicas<input type="texto" name="observaciones"></label>
+	</fieldset>
+
+<button type="submit">Enviar</button>
+<button type="reset">Resetear</button>
+</form>
+</body>
+</html>
